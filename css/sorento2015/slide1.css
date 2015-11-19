@@ -1,0 +1,1105 @@
+/*
+http://kia.com.pe/wp-content/themes/kia/img/content/sorento2015/dimensiones.png
+
+http://kia.com.pe/wp-content/themes/kia/img/bot_bg.jpg
+*/
+
+
+.br{
+  clear: both;
+}
+
+@font-face {
+  font-family: 'kiaotfbold';
+  src: url('font/KIAOTFB-webfont.eot');
+  src: url('font/KIAOTFB-webfont.eot?#iefix') format('embedded-opentype'),
+       url('font/KIAOTFB-webfont.woff2') format('woff2'),
+       url('font/KIAOTFB-webfont.woff') format('woff'),
+       url('font/KIAOTFB-webfont.ttf') format('truetype'),
+       url('font/KIAOTFB-webfont.svg#kiaotfbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'kiaotflight';
+  src: url('font/KIAOTFL-webfont.eot');
+  src: url('font/KIAOTFL-webfont.eot?#iefix') format('embedded-opentype'),
+       url('font/KIAOTFL-webfont.woff2') format('woff2'),
+       url('font/KIAOTFL-webfont.woff') format('woff'),
+       url('font/KIAOTFL-webfont.ttf') format('truetype'),
+       url('font/KIAOTFL-webfont.svg#kiaotflight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'kiaotfmedium';
+  src: url('font/KIAOTFM-webfont.eot');
+  src: url('font/KIAOTFM-webfont.eot?#iefix') format('embedded-opentype'),
+       url('font/KIAOTFM-webfont.woff2') format('woff2'),
+       url('font/KIAOTFM-webfont.woff') format('woff'),
+       url('font/KIAOTFM-webfont.ttf') format('truetype'),
+       url('font/KIAOTFM-webfont.svg#kiaotfmedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container{
+  width: 980px;
+  margin: 0 auto;
+  z-index: 200;
+}
+
+.containerSlide{
+  width: 100%;
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#container_table {
+  display: table;
+  padding: 0;
+  width: 100%;
+}
+
+#container_table #row {
+  display: table-row;
+}
+
+#container_table #row .left {
+  display: table-cell;
+  background: url('./../../img/content/sorento2015/bgLeft.png') repeat-x bottom;
+}
+
+#container_table #row .middle {
+  display: table-cell;
+  width: 980px;
+  padding-top: 65px;
+}
+
+#container_table #row .right {
+  display: table-cell;
+}
+
+.header{
+  background: url("./../../img/content/sorento2015/menu_bg.jpg") repeat-x;
+  height: 75px;
+}
+
+.menu{
+  background: #000;
+  height: 76px !important;
+  overflow: hidden;
+}
+
+.logo-sorento{
+  display: block;
+  float: left;
+  margin: 22px 0 0 0;
+}
+
+.menu ul{
+  float: right;
+}
+
+.menu ul li{
+  float: left;
+  margin: 0;
+}
+
+.menu ul li a{
+  background: #000;
+  color: #444;
+  float: left;
+  padding: 32px 25px 32px 15px;
+  position: relative;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  font-size: 13px;
+  font-family: 'kiaotfbold';
+  color: #fff;
+}
+
+.menu ul li:first-child a:before{
+  border-left: none;
+}
+
+.menu ul li:last-child a:before{
+  background: #BD1125;
+}
+
+.menu ul li:last-child a:after{
+ transform: none;
+ background: #BD1125;
+}
+
+.menu ul li:last-child a{
+  background: url("./../../img/content/sorento2015/cotizar.png") no-repeat scroll 85px 10px #bd1125;
+  width: 90px;
+}
+
+.menu ul li a:before{
+  border-left: 1px solid #fff;
+  left: -0.5em;
+}
+
+.menu ul li a:before, .menu ul li a:after{
+  background: #000;
+  bottom: 0;
+  content: "";
+  position: absolute;
+  top: 0;
+  transform: skew(-10deg);
+  width: 1em;
+}
+
+.preloader{
+  padding: 20px 0;
+  min-height: 300px;
+}
+
+.preloader img {
+  margin: 0 auto;
+  display: block;
+}
+
+.menu ul li a:after{
+  right: -0.5em;
+}
+
+.bgRed{
+  background: #BD1125;
+}
+
+.clsrelv{
+  position: relative;
+}
+
+.section-slideCarousel{
+  overflow: hidden;
+  height: 634px;
+  display: block;
+  position: relative;
+}
+
+.section-slideCarousel .HomeSlide-mainSlideCorousel{
+  height: 634px;
+  left: 50%;
+  margin-left: -960px;
+  position: absolute;
+  width: 1920px;
+}
+
+.section-slideCarousel .HomeSlide-mainSlideCorousel li{
+  
+}
+
+.section-slideCarousel .HomeSlide-mainSlideCorousel li img{
+  height: 100% !important;
+  margin: 0 auto;
+  display: block;
+  width: auto !important;
+}
+
+.section-slideCarousel .section-slide .HomeSlide-thumbnailsMask{
+  display: none;
+}
+
+
+.section-slideCarousel .HomeSlide-thumbnailsSlideWrapper{
+  height: 185px !important;
+  margin: -200px auto 15px !important;
+}
+
+.bgBlank{
+  background: #fff;
+}
+
+.model_one, .model_two{
+  width:100%;
+  margin-bottom: 100px;
+}
+
+.model_one .left{
+  width: 625px;
+  float: left;
+}
+
+.model_two .right{
+  width: 625px;
+  float: right;
+}
+
+.model_one .right{
+  width: 347px;
+  float: right;
+  padding: 90px 0 0 8px;
+  font-family: 'kiaotfmedium';
+  color: #575756;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.model_two .left{
+  color: #575756;
+  float: left;
+  font-family: "kiaotfmedium";
+  font-size: 12px;
+  line-height: 22px;
+  padding: 0 0 0 8px;
+  width: 347px;
+}
+
+.model_one .right h1, .model_two .left h1{
+  font-family: 'kiaotfbold';
+  font-size: 39px;
+  color: #6E6E6D;
+}
+
+.model_one .right h2, .model_two .left h2{
+  color: #6e6e6d;
+  font-family: "kiaotfbold";
+  font-size: 23px;
+  padding-bottom: 44px;
+  padding-top: 10px;
+}
+
+.fullCarect{
+  width: 50%;
+  height: 40px;
+  position: absolute;
+  top: 90px;
+  z-index: -1;
+  background: #000;
+}
+
+.fullBg{
+  width: 100%;
+  height: 40px;
+  background: #000;
+}
+
+.conten{
+  width: 100%;
+  background: #fff;
+}
+
+.boxSliderHidCarousel{
+  width: 980px;
+  height: 600px;
+  font-family: 'kiaotfmedium';
+  font-size: 16px;
+  color: #fff;
+  top: 30px;
+  position: absolute;
+  z-index: 10000;
+}
+
+.boxCaracteristicasSlider{
+  background: url('./../../img/content/sorento2015/bgBox.png') no-repeat;
+  width: 193px;
+  height: 28px;
+  font-family: 'kiaotfmedium';
+  font-size: 16px;
+  color: #fff;
+  padding: 12px 0 0 15px;
+  top: 65px;
+  position: absolute;
+  z-index: 10000;
+}
+
+.boxSlider{
+  background: url('./../../img/content/sorento2015/bgBox.png') no-repeat;
+  width: 193px;
+  height: 28px;
+  font-family: 'kiaotfmedium';
+  font-size: 16px;
+  color: #fff;
+  padding: 12px 0 0 15px;
+}
+
+.expSorento{
+  background: url('./../../img/content/sorento2015/bgBox2.png') no-repeat right !important;
+  width: 220px !important;
+}
+
+#caracteristicas{
+  padding: 90px 0 0 0;
+}
+
+.boxCaracteristicas{
+  margin: 0 0 60px 0;
+  background: url('./../../img/content/sorento2015/bgBox.png') no-repeat;
+  width: 193px;
+  height: 28px;
+  font-family: 'kiaotfmedium';
+  font-size: 16px;
+  color: #fff;
+  padding: 12px 0 0 15px;
+}
+
+.bot{
+  background: #000;
+}
+
+.bot h1{
+  padding: 36px 0 28px 0;
+  font-family: 'kiaotfmedium';
+  font-size: 22px;
+  color: #fff;
+}
+
+.bot .boxSorento{
+  width: 100% !important;
+  padding: 85px 0 0 0;
+}
+
+.bot .boxSorento .left{
+  float: left;
+  width: 304px;
+}
+
+.bot .boxSorento .left .logoSorento{
+  padding: 18px 0 29px 0;
+}
+
+.bot .boxSorento .left .imgGarant{
+  padding: 20px 0;
+}
+
+.bot .boxSorento .left ul{
+  list-style-image: url('./../../img/content/sorento2015/icoLi.png');
+  padding: 0 0 0 15px;
+}
+
+.bot .boxSorento .left ul li{
+  font-family: 'kiaotfmedium';
+  font-size: 16px;
+  margin: 0 0 15px 0;
+}
+
+.bot .boxSorento .left ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.bot .boxSorento .right{
+  float: right;
+  width: 676px;
+}
+
+.imgC{
+  display: block;
+  margin: 0 auto;
+}
+
+
+.footer{
+  background: url("./../../img/content/sorento2015/bot_bg.jpg") repeat-x;
+  height: 211px;
+  position: relative;
+}
+
+.footer .imgFtAb{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+ul {
+  list-style: outside none none;
+}
+.section-slide {
+  display: none;
+  z-index: 0;
+}
+
+.section-slideCarousel {
+  height: 634px;
+}
+
+.HomeSlide-preloader {
+  padding: 20px 0;
+}
+.HomeSlide-preloader img {
+  margin: 0 auto;
+}
+.HomeSlide-mainSlide {
+  display: block;
+  overflow: hidden;
+}
+.HomeSlide-mainSlide li {
+  float: left;
+  margin-left: -100%;
+  opacity: 0;
+  position: relative;
+  width: 100%;
+  z-index: 0;
+}
+.HomeSlide-mainSlide li.first-child {
+  margin-left: 0;
+}
+.HomeSlide-mainSlide li.active {
+  display: block;
+  opacity: 1;
+  z-index: 1;
+}
+.HomeSlide-mainSlide li img {
+  width: 100%;
+}
+.HomeSlide-thumbnailsSlideWrapper {
+  margin: -83px auto 15px;
+  position: relative;
+  width: 673px;
+  z-index: 2;
+}
+.HomeSlide-thumbnailsSlideWrapper .prevThumbnail {
+  background: url("http://kia.com.pe/wp-content/themes/kia/img/content/home/slide-prev-next-buttons-sorento.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  cursor: pointer;
+  float: left;
+  height: 22px;
+  margin-top: 18px;
+  width: 13px;
+}
+.HomeSlide-thumbnailsSlideWrapper .nextThumbnail {
+  background: url("http://kia.com.pe/wp-content/themes/kia/img/content/home/slide-prev-next-buttons-sorento.png") no-repeat scroll -13px 0 rgba(0, 0, 0, 0);
+  cursor: pointer;
+  float: right;
+  height: 22px;
+  margin-top: 18px;
+  width: 13px;
+}
+
+.section-slideCarousel .HomeSlide-thumbnailsSlideWrapper{
+  width: 980px !important;
+}
+
+.section-slideCarousel .HomeSlide-thumbnailsSlideWrapper .prevThumbnail {
+  background: url("http://kia.com.pe/wp-content/themes/kia/img/content/sorento2015/slide-prev-button.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  cursor: pointer;
+  float: left;
+  height: 68px;
+  margin-top: 18px;
+  width: 40px;
+}
+
+.section-slideCarousel .HomeSlide-thumbnailsSlideWrapper .nextThumbnail {
+  background: url("http://kia.com.pe/wp-content/themes/kia/img/content/sorento2015/slide-next-buttons.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  cursor: pointer;
+  float: right;
+  height: 68px;
+  margin-top: 18px;
+  width: 40px;
+}
+
+
+.HomeSlide-thumbnailsMask {
+  height: 70px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  width: 633px;
+}
+.HomeSlide-thumbnailsSlide {
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+}
+.HomeSlide-thumbnail {
+  float: left;
+  margin-right: 4px;
+  transition: filter 0s ease 0s, -webkit-filter 0s ease 0s, border 0.2s ease 0s;
+  width: 201px;
+}
+.HomeSlide-thumbnail img {
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+.HomeSlide-thumbnail.active {
+  background: url("http://kia.com.pe/wp-content/themes/kia/img/content/sorento2015/slide/thum/thumb.active.png") no-repeat 12px 0px;
+  filter: none;
+}
+
+.HomeBanners {
+  margin: 0 auto;
+  max-width: 965px;
+  position: relative;
+}
+.HomeBanners-slideWrapper {
+  float: left;
+  height: 137px;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: 925px;
+  overflow: hidden;
+}
+.HomeBanners-slide {
+  overflow: hidden;
+}
+.HomeBanners-slideItem {
+  border-bottom: 3px solid #bb162b;
+  float: left;
+  margin-right: 15px;
+  width: 220px;
+}
+.HomeBanners-slideItem img {
+  width: 100%;
+}
+.HomeBanners-nav {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.HomeBanners-prevButton {
+  background: url("http://kia.com.pe/wp-content/themes/kia/img/content/home/banner-prev-next-buttons.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  cursor: pointer;
+  height: 100px;
+  left: 0;
+  margin-top: -50px;
+  position: absolute;
+  top: 45%;
+  width: 20px;
+}
+.HomeBanners-nextButton {
+  background: url("http://kia.com.pe/wp-content/themes/kia/img/content/home/banner-prev-next-buttons.gif") no-repeat scroll -20px 0 rgba(0, 0, 0, 0);
+  cursor: pointer;
+  height: 100px;
+  margin-top: -50px;
+  position: absolute;
+  right: 0;
+  top: 45%;
+  width: 20px;
+}
+.HomeBanners .bx-controls {
+  margin-top: 10px;
+  position: relative;
+  text-align: center;
+}
+.HomeBanners .bx-controls .bx-pager-item {
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px #666;
+  display: inline-block;
+  margin-right: 10px;
+  overflow: hidden;
+  width: 16px;
+}
+.HomeBanners .bx-controls .bx-pager-item a {
+  background-color: #d6d6d6;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  padding-top: 16px;
+  width: 100%;
+}
+.HomeBanners .bx-controls .bx-pager-item a.active {
+  background-color: #869791;
+}
+.fixed {
+  z-index: 9999; position: fixed; left: 0; top: 0; width: 100%;
+}
+
+.fiImg {
+  /*height: 59px;*/
+  /* left: 10px; */
+  left: 0px;
+  position: absolute;
+  /* top: 155px; */
+  top:168px;
+  /*width: 115px;*/
+}
+
+.logEuro {
+    height: 59px;
+    left: 155px;
+    position: absolute;
+    top: 155px;
+    width: 149px;
+}
+
+.videoImg {
+  /* height: 59px; */
+  height: 34px;
+  left: 0;
+  position: absolute;
+  /* top: 240px; */
+  top:415px;
+  width: 150px;
+  /* width: 195px; */
+}
+
+.anclaImg {
+  height: 59px;
+  left: 46%;
+  position: absolute;
+  bottom: 22px;
+  width: 59px;
+}
+
+.logoSorentoSlidex640{
+  display: none;
+}
+
+.boxCoTecCat{
+  height: 25px;
+  right: 0;
+  position: absolute;
+  top: 0;
+  width: 505px;
+  display: block;
+}
+
+.boxCoTecCatx640{
+  display: none;
+}
+
+.boxCoTecCatx320{
+  display: none;
+}
+
+.imgBoxTecCat{
+  display: block;
+  float: left;
+}
+
+.imgD {
+  display: none;
+}
+
+.box320{
+  display: none;
+}
+
+@media only screen and (min-width:640px) and (max-width: 800px){
+
+  .container {
+    width: 640px;
+  }
+
+  .section-slideCarousel {
+    height: 473px;
+  }
+  
+  .section-slideCarousel .HomeSlide-mainSlideCorousel {
+    height: 473px;
+  }
+  
+  .section-slideCarousel .HomeSlide-mainSlideCorousel li img {
+      width: auto !important;
+  }
+  
+  .logo-sorento{
+    display: none;
+  }
+
+  .menu ul {
+    float: left;
+    margin-left: 20px;
+  }
+  
+  #container_table #row .middle {
+    padding-top: 25px;
+  }
+
+  .logoSorentoSlide{
+    display: none;
+  }
+
+  .logoSorentoSlidex640{
+    display: block;
+    margin: 0 0 0 20px;
+  }
+
+  .fiImg{
+    left: 21px;
+    position: absolute;
+    top: 136px;
+    width: 269px;
+  }
+
+  .videoImg{
+    height: 33px;
+    left: 21px;
+    position: absolute;
+    top: 315px;
+    width: 138px;
+  }
+  
+  .boxCoTecCat{
+    display: none;
+  }
+
+  .anclaImg{
+    height: 59px;
+    left: 5%;
+    position: absolute;
+    bottom: 0px;
+    width: 59px;
+    top: 61%;
+  }
+
+  .boxCoTecCatx640{
+    height: 85px;
+    right: 0;
+    position: absolute;
+    top: 0;
+    width: 178px;
+    display: block;
+  }
+  
+  .boxCoTecCatx320{
+    display: none;
+  }
+  
+  #caracteristicas {
+    padding: 57px 0 0;
+  }
+  
+  .model_one .left {
+    float: left;
+    width: 400px;
+  }
+  
+  .model_one .left img{
+    display: block;
+    width: 100% !important;
+    height: auto;
+  }
+
+  .model_one .right {
+    float: left;
+    width: 225px;
+    padding: 0;
+  }
+  
+  .model_two .left{
+    width: 225px;
+  }
+
+  .model_two .right {
+    float: left;
+    width: 400px;
+    padding: 100px 0 0;
+  }
+  
+  .model_two .right img {
+    display: block;
+    width: 100% !important;
+    height: auto;
+  }
+  
+  .bot h1 {
+    padding-left: 10px;
+  }
+  
+  .imgC {
+    display: block;
+    height: auto !important;
+    margin: 0 15px;
+    width: 600px !important;
+  }
+  
+
+  .bot .boxSorento .right {
+    float: right;
+    padding: 60px 0 0;
+    width: 330px;
+  }
+
+  .bot .boxSorento .right img{
+    display: block;
+    width: 100% !important;
+    height: auto;
+  }
+  
+  .bot .boxSorento .left .logoSorento {
+    padding: 18px 0 29px 10px;
+  }
+}
+
+@media only screen and (min-width:320px) and (max-width: 640px){
+
+  .section-slideCarousel .HomeSlide-mainSlideCorousel {
+    height: 250px;
+  }
+
+  .logoSorentoSlidex640 {
+    width: 275px;
+  }
+  
+  .boxCoTecCat{
+    display: none;
+  }
+
+  .boxCoTecCatx640{
+    display: none;
+  }
+  
+  .boxCoTecCatx320{
+    height: 75px;
+    left: 0;
+    position: absolute;
+    top: 125px;
+    width: 375px;
+    display: block;
+  }
+
+  .fiImg{
+    height: 123px;    
+    left: -47px;
+    position: absolute;
+    top: -41%;
+    width: 228px;
+  }
+
+  .anclaImg{
+    height: 40px;
+    left: 12%;
+    position: absolute;
+    width: 40px;
+    top: -11%;
+  }
+
+  .boxSliderHidCarousel{
+    top: 265px;
+  }
+
+  .menu {
+    display: none;
+  }
+  
+  .HomeSlide-thumbnailsMask {
+    margin-top: 10px;
+  }
+
+  .model_one .left {
+    float: left;
+    width: 310px;
+  }
+  
+  .model_one .left img{
+    display: block;
+    width: 100% !important;
+    height: auto;
+  }
+
+  .container {
+    width: 320px;
+  }
+  
+
+  .model_one .right {
+    padding: 0 0 0 20px;
+    width: 305px;
+  }
+
+  .model_two .right {
+    width: 310px;
+  }
+
+  .model_two .left {
+    width: 310px;
+  }
+  
+  .model_two .right img{
+    width: 100% !important;
+    height: auto !important;
+    display: block;
+  }
+
+  .imgC {
+    display: none;
+  }
+
+  .imgD {
+    display: block;
+    margin: 8px;
+  }
+
+  .bot .boxSorento .left {
+    padding: 0 0 0 10px;
+  }
+
+  .bot .boxSorento .right {
+    width: 315px;
+  }
+  
+  .bot .boxSorento .right img{
+    display: block;
+    width: 100% !important;
+    height: auto;
+  }
+
+  .bot h1 {
+    display: none;
+  }
+
+  .bot {
+    padding: 20px 0;
+  }
+
+  .box320{
+    display: block;
+    height: 24px;
+    padding-top: 12px;
+    background: #000;
+    margin: 6px 0;
+  }
+  
+  .box320 img{
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .bgRed{
+    background: #BD1125 !important;
+  }
+
+  .boxCaracteristicas{
+    display: none;
+  }
+  
+  .containerSlide{
+    display: none;
+  }
+
+  .HomeSlide-thumbnailsSlideWrapper {
+    margin-top: -10px;
+    width: 320px;
+    margin-left: 0;
+    background: #000;
+    overflow: hidden;
+    margin: auto;
+  }
+  
+  .HomeSlide-thumbnail{
+    margin-left: 30px;
+  }
+
+  .HomeSlide-thumbnailsMask {
+    height: 66px;
+    width: 250px;
+  }
+  
+  .fullCarect {
+    display: none;
+  }
+  
+  .logoSorentoSlide{
+    display: none;
+  }
+
+  .logoSorentoSlidex640{
+    display: block;
+  }
+
+  .section-slideCarousel {
+    height: 450px;
+  }
+
+  #caracteristicas {
+    padding: 15px 0 0;
+  }
+  
+  .HomeSlide-mainSlide {
+    height: 100% !important;
+  }
+  .section-slideCarousel .HomeSlide-mainSlideCorousel li {
+    height: 100%;
+  }
+/*  .HomeSlide-thumbnailsMask{
+    display: none;
+  }*/
+
+}
+
+
+@media only screen (max-width: 360px){
+
+  .HomeSlide-thumbnailsMask {
+    width: 290px !important;
+  }
+  
+  .HomeSlide-thumbnailsSlideWrapper{
+    width: 360px !important;
+  }
+
+}
+
+#aniversario{
+  position: absolute;
+    top: 7%;
+    width: 228px;
+    height: 160px;
+    left: 78%;
+    z-index: 2;
+}
+
+@media (max-width: 1440px){
+      #aniversario{
+        left: 74%!important;
+    }
+
+}
+
+@media (max-width: 1280px){
+      #aniversario{
+        position: absolute;
+        top: 11%!important;
+        width: 203px!important;
+        height: 144px!important;
+        left: 72%!important;
+    }
+
+}
+
+@media (max-width: 1024px){
+      #aniversario{
+        position: absolute;
+        top: 14%!important;
+        width: 187px!important;
+        height: 131px!important;
+        left: 43%!important;
+    }
+
+}
+
+@media (max-width: 768px){
+      #aniversario{
+        position: absolute;
+    top: 9%!important;
+    width: 187px!important;
+    height: 131px!important;
+    left: 52%!important;
+    }
+
+}
+
+@media (max-width: 600px){
+      #aniversario{
+        position: absolute;
+    top: 6%!important;
+    width: 137px!important;
+    height: 81px!important;
+    left: 58.5%!important;
+    }
+
+}
+
+@media(max-width: 375px){
+  .fiImg{
+    left: -23px!important;
+    top: -45%!important;
+  }
+
+
+@media(max-width: 320px){
+  .fiImg{
+    left: 6px!important;
+    top: -46%!important;
+  }
+
+}
